@@ -53,6 +53,7 @@ var clearSelect = (select) => {
   }
 };
 
+/*union*/
 var unionSelection = () => {
   var imagenSeleccionada = document.getElementById('sel1').value;
   imagen1.src = `./imgs/Conexion${imagenSeleccionada}.png`;
