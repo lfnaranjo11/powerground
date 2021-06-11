@@ -30,7 +30,7 @@ const mapping2 = {
 
 var putArrayToSelect = (array, select) => {
   var length = select.options.length;
-  for (i = length - 1; i >= 0; i--) {
+  for (i = length - 1; i >= 1; i--) {
     select.options[i] = null;
   }
   for (var value in array) {
@@ -46,8 +46,6 @@ var unionSelection = () => {
   imagen1.src = `./imgs/Conexion${imagenSeleccionada}.png`;
   var principalSeleccionada = document.getElementById('sel2');
   putArrayToSelect(mapping[imagenSeleccionada], principalSeleccionada);
-  var derivacionSeleccionada = document.getElementById('sel3');
-  putArrayToSelect(mapping2[imagenSeleccionada], derivacionSeleccionada);
 };
 var principalSelection = () => {
   var imagenSeleccionada = document.getElementById('sel1').value;
@@ -78,21 +76,15 @@ var calcular = () => {
   var derivacionSeleccionada = document.getElementById('sel3').value;
   for (var i = 0; i < resultados.length; i++) {
     if (
-      resultados[i].Conexion == imagenSeleccionada &&
-      resultados[i].Principal == principalSeleccionada &&
-      resultados[i].Derivacion == derivacionSeleccionada
-    ) {
-      console.log(resultados[i].Referencia);
-      console.log(resultados[i].Carga);
-      // break;
-    }
-    if (
       resultados[i].Conexion.toString() === imagenSeleccionada.toString() &&
       resultados[i].Principal.toString() === principalSeleccionada.toString() &&
       resultados[i].Derivacion.toString() === derivacionSeleccionada.toString()
     ) {
       console.log(resultados[i].Referencia);
       console.log(resultados[i].Carga);
+      document.getElementById(
+        'resultsText'
+      ).innerHTML = `El valor de referencia es ${resultados[i].Referencia} y la carga de soldadura es ${resultados[i].Carga} gr`;
       break;
     }
   }

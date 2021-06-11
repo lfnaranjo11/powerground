@@ -3,7 +3,10 @@
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
     <meta content="utf-8" http-equiv="encoding" />
-    <link rel="shortcut icon" href="#" />
+    <link
+      rel="shortcut icon"
+      href="imgs/Logos/PNG/Versiones logo POWERGROUND PNG-08.png"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -16,8 +19,9 @@
     </div>
     <div class="form">
       <div class="MainSelect">
+        <h3>Seleccione el tipo de conexión</h3>
         <select onChange="unionSelection()" id="sel1">
-          <option value="0">Seleccionar</option>
+          <option value="0" selected disabled>Seleccionar</option>
           <option value="1">Union Horizontal Cable-Cable</option>
           <option value="2">Union Vertical Cable-Cable</option>
           <option value="3">Union en T Horizontal: Cable-Cable Pasante</option>
@@ -36,23 +40,29 @@
         <img alt="union" src="none" id="img1" />
       </div>
       <div class="principalSelect">
-        <select id="sel2" onChange="principalSelection()"></select>
+        <h3>Seleccione la principal [AWG/MCM]</h3>
+        <select id="sel2" onChange="principalSelection()">
+          <option value="0" selected disabled>Seleccionar</option>
+        </select>
       </div>
       <div class="secondarySelect">
+        <h3>Seleccione la derivación [AWG/MCM]</h3>
+
         <select id="sel3"></select>
       </div>
     </div>
     <div class="results">
+      <div class="label">
+        <label id="resultsText"></label>
+      </div>
       <div class="calcButton">
         <button id="butCalc" onClick="calcular()">Calcular</button>
       </div>
       <div class="storeButton">
         <button id="butGo">Ir a la tienda</button>
       </div>
-      <div class="label">
-        <label id="results"></label>
-      </div>
     </div>
+    <div>aqui deben ir 2021 powerground</div>
   </body>
   <script src="./main.js"></script>
 </html>

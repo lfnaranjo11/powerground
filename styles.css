@@ -1,18 +1,69 @@
 .bar {
   background-color: #7a520f;
   color: #ffff;
+  position: relative;
+}
+#butCalc,
+#butGo {
+  border-radius: 60px;
+  color: #ffff;
+  border: 1px solid #ffff;
+  background-color: transparent;
+  margin: 2em;
+  cursor: pointer;
+  font-family: 'Cabin';
+  font-size: 15px;
+  height: 50px;
+  width: 200px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+h3 {
+  margin-left: 1%;
 }
 .form {
   background-color: #00582e;
   color: #ffff;
-  min-width: fit-content;
+  justify-content: center;
+  height: 100em;
+  min-height: 75%;
 }
 .results {
+  min-height: 25%;
+  display: flexbox;
   background-color: #a69a8c;
   color: #ffff;
   width: auto;
 }
+#resultsText {
+  font-size: 25px;
+  font-family: 'Cabin';
+}
+#sel1,
+#sel2,
+#sel3 {
+  font-size: medium;
+}
 #logo {
+  padding-top: 3em;
   height: 100px;
   width: 324px;
+}
+.MainSelect {
+  font-family: 'Cabin';
+  font-size: medium;
+}
+select {
+  background: #038c7f;
+  color: #ffff;
+  cursor: pointer;
+}
+.select:hover::after {
+  color: #7a520f;
+}
+.select::after {
+  position: fixed;
 }
