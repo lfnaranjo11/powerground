@@ -1,5 +1,5 @@
 var array1 = ['2', '1/0', '2/0', '4/0', '250 MCM'];
-var array2 = [`5/8 "`];
+var array2 = [`5/8`];
 var array3 = [`platina`];
 var imagen1 = document.getElementById('img1');
 imagen1.src = './imgs/Logos/PNG/Versiones logo POWERGROUND PNG-20.png';
@@ -30,9 +30,15 @@ const mapping2 = {
 
 var putArrayToSelect = (array, select) => {
   var length = select.options.length;
-  for (i = length - 1; i >= 1; i--) {
+  for (i = length - 1; i >= 0; i--) {
     select.options[i] = null;
   }
+  var option = document.createElement('option');
+  option.text = 'sin seleccionar';
+  option.value = '0';
+  option.selected = true;
+  option.disabled = true;
+  select.add(option);
   for (var value in array) {
     var option = document.createElement('option');
     option.text = array[value];
