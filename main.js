@@ -46,11 +46,19 @@ var putArrayToSelect = (array, select) => {
     select.add(option);
   }
 };
+var clearSelect = (select) => {
+  var length = select.options.length;
+  for (i = length - 1; i >= 0; i--) {
+    select.options[i] = null;
+  }
+};
 
 var unionSelection = () => {
   var imagenSeleccionada = document.getElementById('sel1').value;
   imagen1.src = `./imgs/Conexion${imagenSeleccionada}.png`;
   var principalSeleccionada = document.getElementById('sel2');
+  var secondarySelect = document.getElementById('sel3');
+  clearSelect(secondarySelect);
   putArrayToSelect(mapping[imagenSeleccionada], principalSeleccionada);
 };
 var principalSelection = () => {
