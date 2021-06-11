@@ -36,7 +36,7 @@ var putArrayToSelect = (array, select) => {
   var option = document.createElement('option');
   option.text = 'sin seleccionar';
   option.value = '0';
-  option.selected = true;
+  option.selected = 'selected';
   option.disabled = true;
   select.add(option);
   for (var value in array) {
