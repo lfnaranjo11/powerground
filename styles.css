@@ -1,0 +1,18 @@
+.bar {
+  background-color: #7a520f;
+  color: #ffff;
+}
+.form {
+  background-color: #00582e;
+  color: #ffff;
+  min-width: fit-content;
+}
+.results {
+  background-color: #a69a8c;
+  color: #ffff;
+  width: auto;
+}
+#logo {
+  height: 100px;
+  width: 324px;
+}

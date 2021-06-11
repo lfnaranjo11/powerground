@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+    <meta content="utf-8" http-equiv="encoding" />
+    <link rel="shortcut icon" href="#" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bar">
+      <img
+        alt="logo"
+        src="imgs/Logos/PNG/Versiones logo POWERGROUND PNG-14.png"
+        id="logo"
+      />
+    </div>
+    <div class="form">
+      <div class="MainSelect">
+        <select onChange="unionSelection()" id="sel1">
+          <option value="0">Seleccionar</option>
+          <option value="1">Union Horizontal Cable-Cable</option>
+          <option value="2">Union Vertical Cable-Cable</option>
+          <option value="3">Union en T Horizontal: Cable-Cable Pasante</option>
+          <option value="4">
+            Unión en X Horizontal Cables Cortados Cable - Cable
+          </option>
+          <option value="5">Unión en X Horzontal Pasante Cable - Cable</option>
+          <option value="6">Unión Varilla Terminal - Cable Terminal</option>
+          <option value="7">Unión Cable Pasante - Varilla Terminal</option>
+          <option value="8">Union Horizontal Paralelo: Cable-Cable</option>
+          <option value="9">Unión Cable Terminal Horizontal a Platina</option>
+          <option value="10">Unión Cable Pasante a Platina Vertical</option>
+        </select>
+      </div>
+      <div class="imgChosser">
+        <img alt="union" src="none" id="img1" />
+      </div>
+      <div class="principalSelect">
+        <select id="sel2" onChange="principalSelection()"></select>
+      </div>
+      <div class="secondarySelect">
+        <select id="sel3"></select>
+      </div>
+    </div>
+    <div class="results">
+      <div class="calcButton">
+        <button id="butCalc" onClick="calcular()">Calcular</button>
+      </div>
+      <div class="storeButton">
+        <button id="butGo">Ir a la tienda</button>
+      </div>
+      <div class="label">
+        <label id="results"></label>
+      </div>
+    </div>
+  </body>
+  <script src="./main.js"></script>
+</html>
