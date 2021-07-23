@@ -1,92 +1,92 @@
-﻿Conexion,Principal,Derivacion, Referencia ,Carga
-1,2,2,PGSS 203,65
-1,1/0,1/0,PGSS 205,90
-1,2/0,2/0,PGSS 206,90
-1,4/0,4/0,PGSS 208,115
-1,250 MCM,250 MCM,PGSS 209,115
-2,2,2,PGSV 1253,65
-2,1/0,1/0,PGSV 1255,65
-2,2/0,2/0,PGSV 1256,90
-2,4/0,4/0,PGSV 1258,90
-2,250 MCM,250 MCM,PGSV 1259,115
-3,2,2,PGTAS 223,65
-3,1/0,1/0,PGTAS 228,90
-3,1/0,2,PGTAS 230,65
-3,2/0,2/0,PGTAS 232,90
-3,2/0,1/0,PGTAS 233,90
-3,2/0,2,PGTAS 235,65
-3,2/0,4/0,PGTAS 5476,90
-3,4/0,4/0,PGTAS 241,150
-3,4/0,2/0,PGTAS 243,90
-3,4/0,1/0,PGTAS 244,90
-3,4/0,2,PGTAS 246,90
-3,250 MCM,250 MCM,PGTAS 247,150
-3,250 MCM,4/0,PGTAS 248,150
-3,250 MCM,2/0,PGTAS 250,90
-3,250 MCM,1/0,PGTAS 251,90
-3,250 MCM,2,PGTAS 253,90
-4,2,2,PGPTS 1313,65
-4,1/0,1/0,PGPTS 1318,90
-4,1/0,2,PGPTS 1320,90
-4,2/0,2/0,PGPTS 1322,115
-4,2/0,1/0,PGPTS 1323,115
-4,2/0,2,PGPTS 1325,90
-4,4/0,4/0,PGPTS 1331,200
-4,4/0,2/0,PGPTS 1333,150
-4,4/0,1/0,PGPTS 1334,150
-4,4/0,2,PGPTS 1336,150
-4,250 MCM,250 MCM,PGPTS 1337,250
-4,250 MCM,4/0,PGPTS 1338,200
-4,250 MCM,2/0,PGPTS 1340,150
-4,250 MCM,1/0,PGPTS 1341,150
-4,250 MCM,2,PGPTS 1343,150
-5,2,2,PGXAS 425,65
-5,1/0,1/0,PGXAS 430,90
-5,1/0,2,PGXAS 432,65
-5,2/0,2/0,PGXAS 434,90
-5,2/0,1/0,PGXAS 435,90
-5,2/0,2,PGXAS 437,65
-5,4/0,4/0,PGXAS 443,90
-5,4/0,2/0,PGXAS 445,90
-5,4/0,1/0,PGXAS 446,150
-5,4/0,2,PGXAS 448,90
-5,250 MCM,250 MCM,PGXAS 449,90
-5,250 MCM,4/0,PGXAS 450,90
-5,250 MCM,2/0,PGXAS 452,90
-5,250 MCM,1/0,PGXAS 453,150
-5,250 MCM,2,PGXAS 455,150
-6,2,2,PGXBL 2689,90
-6,1/0,1/0,PGXBL 2694,150
-6,1/0,2,PGXBL 2696,115
-6,2/0,2/0,PGXBL 2698,200
-6,2/0,1/0,PGXBL 2699,200
-6,2/0,2,PGXBL 2701,150
-6,4/0,4/0,PGXBL 2707,250
-6,4/0,2/0,PGXBL 2709,200
-6,4/0,1/0,PGXBL 2710,200
-6,4/0,2,PGXBL 2712,150
-6,250 MCM,250 MCM,PGXBL 2713,2-150
-6,250 MCM,4/0,PGXBL 2714,2-150
-6,250 MCM,2/0,PGXBL 2716,250
-6,250 MCM,1/0,PGXBL 2717,250
-6,250 MCM,2,PGXBL 2719,150
-7,"5/8""",2,PGGRS 503,90
-7,"5/8""",1/0,PGGRS 505,90
-7,"5/8""",2/0,PGGRS 506,90
-7,"5/8""",4/0,PGGRS 508,90
-7,"5/8""",250 MCM,PGGRS 509,115
-8,"5/8 """,2,PGGTS 545,90
-8,"5/8""",1/0,PGGTS 547,90
-8,"5/8""",2/0,PGGTS 548,115
-8,"5/8""",4/0,PGGTS 550,115
-8,"5/8""",250 MCM,PGGTS 551,150
-9,2,PLATINA,PGHA 630,65
-9,1/0,PLATINA,PGHA 7146,90
-9,2/0,PLATINA,PGHA 7075,90
-9,4/0,PLATINA,PGHA 6114,115
-9,250 MCM,PLATINA,PGHA 2200,115
-10,2,PLATINA,PGVV 1218,115
-10,1/0,PLATINA,PGVV 1220,200
-10,2/0,PLATINA,PGVV 1221,200
-10,4/0,PLATINA,PGVV 1223,250
-10,250 MCM,PLATINA,PGVV 1224,250
+﻿Conexion,Principal,Derivacion, Referencia ,Carga,link
+1,2,2,PGSS 203,65,https://www.powerground.com.co/product-page/molde-para-union-horizontal-cable-cable-pgss-203
+1,1/0,1/0,PGSS 205,90,https://www.powerground.com.co/product-page/molde-para-union-horizontal-cable-cable-pgss-205
+1,2/0,2/0,PGSS 206,90,https://www.powerground.com.co/product-page/molde-para-union-horizontal-cable-cable-pgss-206
+1,4/0,4/0,PGSS 208,115,https://www.powerground.com.co/product-page/molde-para-union-horizontal-cable-cable-pgss-208
+1,250 MCM,250 MCM,PGSS 209,115,https://www.powerground.com.co/product-page/molde-para-union-horizontal-cable-cable-pgss-209
+2,2,2,PGSV 1253,65,https://www.powerground.com.co/product-page/molde-para-union-vertical-cable-cable-pgsv-1253
+2,1/0,1/0,PGSV 1255,65,https://www.powerground.com.co/product-page/pgsv-1255-molde-para-union-vertical-cable-cable
+2,2/0,2/0,PGSV 1256,90,https://www.powerground.com.co/product-page/pgsv-1256-molde-para-union-vertical-cable-cable
+2,4/0,4/0,PGSV 1258,90,https://www.powerground.com.co/product-page/pgsv-1258-molde-para-union-vertical-cable-cable
+2,250 MCM,250 MCM,PGSV 1259,115,https://www.powerground.com.co/product-page/pgsv-1259-molde-para-union-vertical-cable-cable
+3,2,2,PGTAS 223,65,https://www.powerground.com.co/product-page/molde-para-union-en-t-horizontal-pgtas-223
+3,1/0,1/0,PGTAS 228,90,https://www.powerground.com.co/product-page/molde-para-union-en-t-horizontal-pgtas-228
+3,1/0,2,PGTAS 230,65,https://www.powerground.com.co/product-page/molde-para-union-en-t-horizontal-pgtas-230
+3,2/0,2/0,PGTAS 232,90,https://www.powerground.com.co/product-page/molde-para-union-en-t-horizontal-pgtas-232
+3,2/0,1/0,PGTAS 233,90,https://www.powerground.com.co/product-page/molde-para-union-en-t-horizontal-pgtas-233
+3,2/0,2,PGTAS 235,65,https://www.powerground.com.co/product-page/molde-para-union-en-t-horizontal-pgtas-235
+3,2/0,4/0,PGTAS 5476,90,https://www.powerground.com.co/product-page/molde-para-union-en-t-horizontal-pgtas-5476
+3,4/0,4/0,PGTAS 241,150,https://www.powerground.com.co/product-page/molde-para-union-en-t-horizontal-pgtas-241
+3,4/0,2/0,PGTAS 243,90,https://www.powerground.com.co/product-page/molde-para-union-en-t-horizontal-pgtas-243
+3,4/0,1/0,PGTAS 244,90,https://www.powerground.com.co/product-page/molde-para-union-en-t-horizontal-pgtas-244
+3,4/0,2,PGTAS 246,90,https://www.powerground.com.co/product-page/molde-para-union-en-t-horizontal-pgtas-246
+3,250 MCM,250 MCM,PGTAS 247,150,https://www.powerground.com.co/product-page/molde-para-union-en-t-horizontal-pgtas-247
+3,250 MCM,4/0,PGTAS 248,150,https://www.powerground.com.co/product-page/molde-para-union-en-t-horizontal-pgtas-248
+3,250 MCM,2/0,PGTAS 250,90,https://www.powerground.com.co/product-page/molde-para-union-en-t-horizontal-pgtas-250
+3,250 MCM,1/0,PGTAS 251,90,https://www.powerground.com.co/product-page/molde-para-union-en-t-horizontal-pgtas-251
+3,250 MCM,2,PGTAS 253,90,https://www.powerground.com.co/product-page/molde-para-union-en-t-horizontal-pgtas-253
+4,2,2,PGPTS 1313,65,https://www.powerground.com.co/product-page/pgpts-1313-molde-para-union-horizontal-paralelo-cable-cable
+4,1/0,1/0,PGPTS 1318,90,https://www.powerground.com.co/product-page/pgpts-1318-molde-para-union-horizontal-paralelo-cable-cable
+4,1/0,2,PGPTS 1320,90,https://www.powerground.com.co/product-page/pgpts-1320-molde-para-union-horizontal-paralelo-cable-cable
+4,2/0,2/0,PGPTS 1322,115,https://www.powerground.com.co/product-page/pgpts-1322-molde-para-union-horizontal-paralelo-cable-cable
+4,2/0,1/0,PGPTS 1323,115,https://www.powerground.com.co/product-page/pgpts-1323-molde-para-union-horizontal-paralelo-cable-cable
+4,2/0,2,PGPTS 1325,90,https://www.powerground.com.co/product-page/pgpts-1325-molde-para-union-horizontal-paralelo-cable-cable
+4,4/0,4/0,PGPTS 1331,200,https://www.powerground.com.co/product-page/pgpts-1331-molde-para-union-horizontal-paralelo-cable-cable
+4,4/0,2/0,PGPTS 1333,150,https://www.powerground.com.co/product-page/pgpts-1333-molde-para-union-horizontal-paralelo-cable-cable
+4,4/0,1/0,PGPTS 1334,150,https://www.powerground.com.co/product-page/pgpts-1334-molde-para-union-horizontal-paralelo-cable-cable
+4,4/0,2,PGPTS 1336,150,https://www.powerground.com.co/product-page/pgpts-1336-molde-para-union-horizontal-paralelo-cable-cable
+4,250 MCM,250 MCM,PGPTS 1337,250,https://www.powerground.com.co/product-page/pgpts-1337-molde-para-union-horizontal-paralelo-cable-cable
+4,250 MCM,4/0,PGPTS 1338,200,https://www.powerground.com.co/product-page/pgpts-1338-molde-para-union-horizontal-paralelo-cable-cable
+4,250 MCM,2/0,PGPTS 1340,150,https://www.powerground.com.co/product-page/pgpts-1340-molde-para-union-horizontal-paralelo-cable-cable
+4,250 MCM,1/0,PGPTS 1341,150,https://www.powerground.com.co/product-page/pgpts-1341molde-para-union-horizontal-paralelo-cable-cable
+4,250 MCM,2,PGPTS 1343,150,https://www.powerground.com.co/product-page/pgpts-1343-molde-para-union-horizontal-paralelo-cable-cable
+5,2,2,PGXAS 425,65,https://www.powerground.com.co/product-page/pgxas-425-molde-para-union-en-x-horizontal-cables-cortados
+5,1/0,1/0,PGXAS 430,90,https://www.powerground.com.co/product-page/pgxas-430-molde-para-union-en-x-horizontal-cables-cortados
+5,1/0,2,PGXAS 432,65,https://www.powerground.com.co/product-page/pgxas-432-molde-para-union-en-x-horizontal-cables-cortados
+5,2/0,2/0,PGXAS 434,90,https://www.powerground.com.co/product-page/pgxas-434-molde-para-union-en-x-horizontal-cables-cortados
+5,2/0,1/0,PGXAS 435,90,https://www.powerground.com.co/product-page/pgxas-435-molde-para-union-en-x-horizontal-cables-cortados
+5,2/0,2,PGXAS 437,65,https://www.powerground.com.co/product-page/pgxas-437-molde-para-union-en-x-horizontal-cables-cortados
+5,4/0,4/0,PGXAS 443,90,https://www.powerground.com.co/product-page/pgxas-443-molde-para-union-en-x-horizontal-cables-cortados
+5,4/0,2/0,PGXAS 445,90,https://www.powerground.com.co/product-page/pgxas-445-molde-para-union-en-x-horizontal-cables-cortados
+5,4/0,1/0,PGXAS 446,150,https://www.powerground.com.co/product-page/pgxas-446-molde-para-union-en-x-horizontal-cables-cortados
+5,4/0,2,PGXAS 448,90,https://www.powerground.com.co/product-page/pgxas-448-molde-para-union-en-x-horizontal-cables-cortados
+5,250 MCM,250 MCM,PGXAS 449,90,https://www.powerground.com.co/product-page/pgxas-449-molde-para-union-en-x-horizontal-cables-cortados
+5,250 MCM,4/0,PGXAS 450,90,https://www.powerground.com.co/product-page/pgxas-450-molde-para-union-en-x-horizontal-cables-cortados
+5,250 MCM,2/0,PGXAS 452,90,https://www.powerground.com.co/product-page/pgxas-452-molde-para-union-en-x-horizontal-cables-cortados
+5,250 MCM,1/0,PGXAS 453,150,https://www.powerground.com.co/product-page/pgxas-453-molde-para-union-en-x-horizontal-cables-cortados
+5,250 MCM,2,PGXAS 455,150,https://www.powerground.com.co/product-page/pgxas-455-molde-para-union-en-x-horizontal-cables-cortados
+6,2,2,PGXBL 2689,90,https://www.powerground.com.co/product-page/pgxbl-2689-molde-para-union-en-x-horizontal-pasante-cable-cable
+6,1/0,1/0,PGXBL 2694,150,https://www.powerground.com.co/product-page/pgxbl-2694-molde-para-union-en-x-horizontal-pasante-cable-cable
+6,1/0,2,PGXBL 2696,115,https://www.powerground.com.co/product-page/pgxbl-2696-molde-para-union-en-x-horizontal-pasante-cable-cable
+6,2/0,2/0,PGXBL 2698,200,https://www.powerground.com.co/product-page/pgxbl-2698-molde-para-union-en-x-horizontal-pasante-cable-cable
+6,2/0,1/0,PGXBL 2699,200,https://www.powerground.com.co/product-page/pgxbl-2699-molde-para-union-en-x-horizontal-pasante-cable-cable
+6,2/0,2,PGXBL 2701,150,https://www.powerground.com.co/product-page/pgxbl-2701-molde-para-union-en-x-horizontal-pasante-cable-cable
+6,4/0,4/0,PGXBL 2707,250,https://www.powerground.com.co/product-page/pgxbl-2707-molde-para-union-en-x-horizontal-pasante-cable-cable
+6,4/0,2/0,PGXBL 2709,200,https://www.powerground.com.co/product-page/pgxbl-2709-molde-para-union-en-x-horizontal-pasante-cable-cable
+6,4/0,1/0,PGXBL 2710,200,https://www.powerground.com.co/product-page/pgxbl-2710-molde-para-union-en-x-horizontal-pasante-cable-cable
+6,4/0,2,PGXBL 2712,150,https://www.powerground.com.co/product-page/pgxbl-2712-molde-para-union-en-x-horizontal-pasante-cable-cable
+6,250 MCM,250 MCM,PGXBL 2713,2-150,https://www.powerground.com.co/product-page/pgxbl-2713-molde-para-union-en-x-horizontal-pasante-cable-cable
+6,250 MCM,4/0,PGXBL 2714,2-150,https://www.powerground.com.co/product-page/pgxbl-2714-molde-para-union-en-x-horizontal-pasante-cable-cable
+6,250 MCM,2/0,PGXBL 2716,250,https://www.powerground.com.co/product-page/pgxbl-2716-molde-para-union-en-x-horizontal-pasante-cable-cable
+6,250 MCM,1/0,PGXBL 2717,250,https://www.powerground.com.co/product-page/pgxbl-2717-molde-para-union-en-x-horizontal-pasante-cable-cable
+6,250 MCM,2,PGXBL 2719,150,https://www.powerground.com.co/product-page/pgxbl-2719-molde-para-union-en-x-horizontal-pasante-cable-cable
+7,"5/8""",2,PGGRS 503,90,https://www.powerground.com.co/product-page/pggrs-503-molde-para-union-varilla-terminal-cable-terminal
+7,"5/8""",1/0,PGGRS 505,90,https://www.powerground.com.co/product-page/pggrs-505-molde-para-union-varilla-terminal-cable-terminal
+7,"5/8""",2/0,PGGRS 506,90,https://www.powerground.com.co/product-page/pggrs-506-molde-para-union-varilla-terminal-cable-terminal
+7,"5/8""",4/0,PGGRS 508,90,https://www.powerground.com.co/product-page/pggrs-508-molde-para-union-varilla-terminal-cable-terminal
+7,"5/8""",250 MCM,PGGRS 509,115,https://www.powerground.com.co/product-page/pggrs-509-molde-para-union-varilla-terminal-cable-terminal
+8,"5/8 """,2,PGGTS 545,90,https://www.powerground.com.co/product-page/molde-para-union-cable-varilla-pggts-545
+8,"5/8""",1/0,PGGTS 547,90,https://www.powerground.com.co/product-page/molde-para-union-cable-varilla-pggts-547
+8,"5/8""",2/0,PGGTS 548,115,https://www.powerground.com.co/product-page/molde-para-union-cable-varilla-pggts-548
+8,"5/8""",4/0,PGGTS 550,115,https://www.powerground.com.co/product-page/molde-para-union-cable-varilla-pggts-550
+8,"5/8""",250 MCM,PGGTS 551,150,https://www.powerground.com.co/product-page/molde-para-union-cable-varilla-pggts-551
+9,2,PLATINA,PGHA 630,65,https://www.powerground.com.co/product-page/pgha-630-molde-para-union-cable-terminal-horizontal-a-platina
+9,1/0,PLATINA,PGHA 7146,90,https://www.powerground.com.co/product-page/pgha-7146-molde-para-union-cable-terminal-horizontal-a-platina
+9,2/0,PLATINA,PGHA 7075,90,https://www.powerground.com.co/product-page/pgha-7075-molde-para-union-cable-terminal-horizontal-a-platina
+9,4/0,PLATINA,PGHA 6114,115,https://www.powerground.com.co/product-page/pgha-6114-molde-para-union-cable-terminal-horizontal-a-platina
+9,250 MCM,PLATINA,PGHA 2200,115,https://www.powerground.com.co/product-page/pgha-2200-molde-para-union-cable-terminal-horizontal-a-platina
+10,2,PLATINA,PGVV 1218,115,https://www.powerground.com.co/product-page/pgvv-1218-molde-para-union-cable-pasante-a-platina-vertical
+10,1/0,PLATINA,PGVV 1220,200,https://www.powerground.com.co/product-page/pgvv-1220-molde-para-union-cable-pasante-a-platina-vertical
+10,2/0,PLATINA,PGVV 1221,200,https://www.powerground.com.co/product-page/pgvv-1221-molde-para-union-cable-pasante-a-platina-vertical
+10,4/0,PLATINA,PGVV 1223,250,https://www.powerground.com.co/product-page/pgvv-1223-molde-para-union-cable-pasante-a-platina-vertical
+10,250 MCM,PLATINA,PGVV 1224,250,https://www.powerground.com.co/product-page/pgvv-1224-molde-para-union-cable-pasante-a-platina-vertical
