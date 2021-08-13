@@ -1,3 +1,9 @@
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+
 .bar {
   background-color: #7a520f;
   color: #ffff;
