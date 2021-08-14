@@ -97,9 +97,9 @@ var calcular = () => {
       resultados[i].Principal.toString() === principalSeleccionada.toString() &&
       resultados[i].Derivacion.toString() === derivacionSeleccionada.toString()
     ) {
-      console.log(resultados[i].Referencia);
-      console.log(resultados[i].Carga);
       imagen2.src = `./imgs/Molde.png`;
+      imagen2.style.height = "500px";
+      imagen2.style.length="500px";
       document.getElementById(
         'resultsText'
       ).innerHTML = `El valor de referencia es ${resultados[i].Referencia} y la carga de soldadura es ${resultados[i].Carga} gr`;
@@ -119,7 +119,7 @@ var toStore = () => {
       resultados[i].Principal.toString() === principalSeleccionada.toString() &&
       resultados[i].Derivacion.toString() === derivacionSeleccionada.toString()
     ) {
-      imagen2.src = `./imgs/Molde.png`;
+
       top.location.href = resultados[i].link;
     } else {
       //location.href = 'http://www.powerground.com.co/';
