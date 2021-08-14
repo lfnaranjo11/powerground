@@ -108,14 +108,15 @@ var toStore = () => {
   var imagenSeleccionada = document.getElementById('sel1').value;
   var principalSeleccionada = document.getElementById('sel2').value;
   var derivacionSeleccionada = document.getElementById('sel3').value;
+  var imagen2= document.getElementById('img2');
+
   for (var i = 0; i < resultados.length; i++) {
     if (
       resultados[i].Conexion.toString() === imagenSeleccionada.toString() &&
       resultados[i].Principal.toString() === principalSeleccionada.toString() &&
       resultados[i].Derivacion.toString() === derivacionSeleccionada.toString()
     ) {
-      console.log('sipo');
-      console.log(resultados[i].link);
+      imagen2.src = `./imgs/Molde.png`;
       top.location.href = resultados[i].link;
     } else {
       //location.href = 'http://www.powerground.com.co/';
