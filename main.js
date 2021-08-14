@@ -116,7 +116,7 @@ var toStore = () => {
     ) {
       console.log('sipo');
       console.log(resultados[i].link);
-      location.href = resultados[i].link;
+      top.location.href = resultados[i].link;
     } else {
       //location.href = 'http://www.powerground.com.co/';
     }
