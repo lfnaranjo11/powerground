@@ -99,6 +99,7 @@ var calcular = () => {
     ) {
       console.log(resultados[i].Referencia);
       console.log(resultados[i].Carga);
+      imagen2.src = `./imgs/Molde.png`;
       document.getElementById(
         'resultsText'
       ).innerHTML = `El valor de referencia es ${resultados[i].Referencia} y la carga de soldadura es ${resultados[i].Carga} gr`;
