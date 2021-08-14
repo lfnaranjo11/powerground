@@ -3,6 +3,8 @@ var array2 = [`5/8`];
 var array3 = [`platina`];
 var imagen1 = document.getElementById('img1');
 imagen1.src = './imgs/Logos/PNG/Versiones logo POWERGROUND PNG-20.png';
+var imagen2 = document.getElementById('img2');
+imagen2.src = './imgs/Logos/PNG/Versiones logo POWERGROUND PNG-20.png';
 const mapping = {
   1: array1,
   2: array1,
